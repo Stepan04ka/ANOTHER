@@ -1,0 +1,11 @@
+package org.CalcAPI;
+
+public interface Operation<N extends Number,T extends String>{
+    void solving(N[] num,T[] os);
+}
+
+class OperationImport implements Operation<Integer,String> {
+    public void solving(Integer[] num,String[] os) {
+        // There was suppose to be something 
+    }
+}
